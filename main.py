@@ -1,3 +1,4 @@
+# Final version ready for submission
 import tkinter as tk
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt
