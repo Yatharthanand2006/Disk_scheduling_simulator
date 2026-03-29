@@ -157,7 +157,7 @@ def draw_graph(results):
 # ---------------- UI SETUP ----------------
 root = tk.Tk()
 root.title("Disk Scheduling Simulator Pro")
-root.geometry("1200x800")
+root.geometry("1300x850")
 root.configure(bg="#0f172a")
 
 
