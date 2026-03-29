@@ -74,8 +74,8 @@ def run_simulation():
                 f"\n-----------------------------\n"
                 f"{name}\n"
                 f"Path: {' → '.join(map(str, sequence))}\n"
-                f"Total Seek: {seek}\n"
-                f"Average Seek: {avg:.2f}\n"
+                f"Total Seek Time: {seek}\n"
+                f"Average Seek Time: {avg:.2f}\n"
             )
 
         output_box.insert(tk.END, f"\n🏆 BEST ALGORITHM: {best_algo}\n")
