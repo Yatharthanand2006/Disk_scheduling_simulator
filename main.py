@@ -164,6 +164,8 @@ root.configure(bg="#0f172a")
 left_panel = tk.Frame(root, bg="#1e293b", width=260)
 left_panel.pack(side="left", fill="y")
 
+tk.Label(left_panel, text="OS Project", fg="cyan", bg="#1e293b").pack()
+
 tk.Label(left_panel, text="CONTROL PANEL",
          bg="#1e293b", fg="#38bdf8",
          font=("Segoe UI", 14, "bold")).pack(pady=15)
