@@ -1,3 +1,4 @@
+# OS Disk Scheduling Algorithms Implementation
 # ---------------- FCFS (First Come First Serve) ----------------
 def fcfs(request_list, start_head):
     # sequence will store movement of disk head
